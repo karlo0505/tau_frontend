@@ -1,0 +1,12 @@
+export { default as DLicense } from "./dLicense";
+export { default as MpPermit } from "./mpPermit";
+export { default as ORRecpt } from "./orReciept";
+export { default as CRReciept } from "./CRReciept";
+export { default as StudentId } from "./studentId";
+export { default as EmployeeId } from "./employeeId";
+export { default as LoginForm } from './login'
+export { default as NewApplicationForm } from './application'
+export { default as RenewApplication } from './renew'
+export { default as CancellApplication } from './cancelled'
+export { default as DeleteRequirements } from './delRequire'
+export { default as AddRequirements } from './addRequirements'
