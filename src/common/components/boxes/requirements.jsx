@@ -80,22 +80,7 @@ export default function UserRequirements({ data, reqGetApplication }) {
   };
 
   function viewFiles(file) {
-    const type = file.split(".")[1];
-
-    const URL = `${process.env.REACT_APP_ZEPNDS_URI}/api/client/${file}`;
-
-    switch (type) {
-      case "jpg":
-        return <img width="100%" height="100%" src={URL} alt="file" />;
-      case "jpeg":
-        return <img width="100%" height="100%" src={URL} alt="file" />;
-      case "png":
-        return <img width="100%" height="100%" src={URL} alt="file" />;
-      case "PDF":
-        return <PdfViewer file={URL} token={token} />;
-      default:
-        return <PdfViewer file={URL} token={token} />;
-    }
+    return <img width="100%" height="100%" src={file} alt="file" />;
   }
 
   const viewfiles = {
