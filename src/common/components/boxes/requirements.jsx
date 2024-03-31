@@ -10,7 +10,6 @@ import React, { useEffect, useState } from "react";
 import { ImageConfig } from "../../../constants/fileUpload";
 import moment from "moment";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
-import PdfViewer from "../pdfViewer";
 import AppDrawer from "../popup/AppDrawer";
 import { useDispatch, useSelector } from "react-redux";
 import { closeDrawer, openDrawer, showModal } from "../../../store/app.slice";
